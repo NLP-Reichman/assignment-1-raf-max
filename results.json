@@ -1,0 +1,35 @@
+{
+    "test_preprocess": {
+      "vocab_length": 1804
+    },
+    "test_build_lm": {
+      "english_2_gram_length": 748,
+      "english_3_gram_length": 8239,
+      "french_3_gram_length": 8286,
+      "spanish_3_gram_length": 8469
+    },
+    "test_eval": {
+      "en_on_en": 18.15,
+      "en_on_fr": 38.06,
+      "en_on_tl": 44.94,
+      "en_on_nl": 40.15
+    },
+    "test_match": {
+      "df_shape": [
+        256,
+        4
+      ],
+      "en_en_3": 8.89528110133509,
+      "en_tl_3": 23.33814343408983,
+      "en_nl_3": 22.83124864805353
+    },
+    "test_generate": {
+      "english_2_gram": "I am gngyortt omyo & he't",
+      "english_3_gram": "I am SPNxFolf ans appree ",
+      "english_4_gram": "I Love in gethe polic and u",
+      "spanish_2_gram": "Soy eveamalue ndicren ce",
+      "spanish_3_gram": "Soy le 4 Lificio el 200 ",
+      "french_2_gram": "Je suis ptapll vilene \" is:/",
+      "french_3_gram": "Je suis httez un prent-\u00eatest"
+    }
+  }
